@@ -1,0 +1,25 @@
+{
+  "name": "node-express-mysql-seed",
+  "version": "1.0.0",
+  "description": "a template for node projects with mysql and express needs",
+  "main": "bin/www",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "S1cK94",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "debug": "^2.1.0",
+    "express": "^4.10.6",
+    "morgan": "^1.5.0",
+    "mysql": "^2.5.4",
+    "nconf": "^0.7.1",
+    "sequelize": "^2.0.0-rc4"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
+  }
+}

@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+'use strict';
+
+var debug = require('debug')('executable');
+
+var conf = require('../conf'),
+    app = require('../app'),
+    db = require('../models').db;
+
+var server;
+
+db.authenticate().then(function(){
+  debug('conected to: %s', conf.get('databaseUri'));
+
+  server = app.listen(conf.get('port'), function(){
+    debug('Express server listening on port ' + server.address().port);
+  });
+}).catch(function(err){
+  debug('Cant connect to server, reason: %o', err);
+  process.exit(1);
+});
