@@ -2,8 +2,8 @@
   "name": "node-express-mysql-seed",
   "version": "1.0.0",
   "description": "a template for node projects with mysql and express needs",
-  "main": "bin/www",
   "scripts": {
+    "start":"bin/www",
     "test": "mocha"
   },
   "author": "S1cK94",

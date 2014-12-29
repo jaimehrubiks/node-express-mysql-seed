@@ -1,7 +1,8 @@
 Node Express MySQL seed
 =======================
 
-This is a project template to kick start you developent with Node, Express and MySQL.
+This is a project template to kick start you developent with Node, Express and
+MySQL.
 
 It features Express 4.x, mysql 2.x and Sequelize 2.x.
 
@@ -37,19 +38,22 @@ Executable ready for launch
 
 bin/debug
 ---------
-Executable that enables debug module
+Executable that enables debug module and runs server under nodemon.
 
 bin/inspect
 -----------
-TODO
+Executable that allows debugging with node-inspector
 
 conf
 ----
-Uses nconf to load configurations. Default order is ARGV > ENV > FILE(conf.json).
+Uses nconf to load configurations. Default order is
+ARGV > ENV > FILE(conf.json).
 
 models
 ------
-In this folder are put all model definitions. They are automatically loaded by `index.js`, assuming every file in this directory defines only one model at time.
+In this folder are put all model definitions. They are automatically loaded by
+`index.js`, assuming every file in this directory defines only one model at
+time.
 
 controllers
 -----------
@@ -57,7 +61,8 @@ In this folder are put all controllers
 
 routes
 ------
-In this folder are put all routes definition. `index.js` is mounted by deafult to `/`.
+In this folder are put all routes definition. `index.js` is mounted by deafult
+to `/`.
 
 test
 ----

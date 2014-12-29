@@ -1,1 +1,2 @@
+#! /bin/sh
 NODE_ENV=development DEBUG=executable,app,routes,models,controllers nodemon -I bin/www
